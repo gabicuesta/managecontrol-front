@@ -1,0 +1,30 @@
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="side" class="sidenav">
+      <app-sidebar></app-sidebar>
+  </mat-sidenav>
+  <mat-sidenav-content >
+      <div style="height: 100vh;">
+        <div class="header">
+            <div class="menuicon">
+                 <mat-icon aria-hidden="false" aria-label="Example home icon" (click)="sidenav.toggle()">menu</mat-icon>
+            </div>
+
+            <div class="wellcomeFace">
+                <img src="..\..\assets\face.jpg" style="width:40px;">
+            </div>
+
+            <div  class="wellcome">
+               <p>Bienvenido, Usuario </p>
+            </div>
+
+            
+
+
+        </div>
+
+        
+
+        <router-outlet></router-outlet>
+      </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

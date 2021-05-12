@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* colores */
+.bgGreen {background:#03989E; color:#ffffff;}
+.green {color:#03989E;}
+.red{color:#FF0000;}
+
+.btn-green{background:#03989E; color:#ffffff;}
+
+.btn-greenCar{background:#03989E; color:#ffffff; padding:0px;}
+
+
+.greenLink a:link {
+    color:#03989E;
+  }
+  .greenLink a:visited {
+    color:#03989E;
+  }
+  .greenLink a:hover {
+    color:#C9E264;
+    text-decoration: none;
+  }
+
+
+.mat-drawer-inner-container {
+    background-color: #03989E;;
+}
+
+table {
+    width: 100%;
+  }

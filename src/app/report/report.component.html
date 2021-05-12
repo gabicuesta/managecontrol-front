@@ -1,0 +1,120 @@
+<div class="container mt-3"> 
+
+    <h2>Reporte Operación</h2>
+
+    <p> <a [routerLink]="'/operation'">Gestión Operaciones </a>- <a [routerLink]="'/opedetail'">Detalle Operaciones </a>- Reporte operación</p>
+
+    <div class="row justify-content-end my-3">
+      <div class="col-2">
+        <a href="#" class="btn btn-green btn-sm btn float-right" tabindex="-1" role="button" aria-disabled="true">IMPRIMIR PDF</a>
+      </div>
+      <div class="col-1">
+        <a href="#" class="btn btn-green btn-sm btn float-right" tabindex="-1" role="button" aria-disabled="true">EXPORTAR</a>
+      </div>
+    </div>
+
+
+   <div class="row">
+    <div class="col sm-3">
+        <div class="card mt-3" style="width: 18rem; ">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><strong>Datos de la operación</strong></li>
+              <li class="list-group-item">VIN: FGH-1112145</li>
+              <li class="list-group-item">Marca: Ford</li>
+              <li class="list-group-item">Modelo: Focus</li>
+              <li class="list-group-item">Fecha de la operación: 20-04-2021</li>
+              <li class="list-group-item">Duración de la operación: 23 días</li>
+            </ul>
+        </div>
+    </div>
+    <div class="col sm-3">
+        <div class="card mt-3" style="width: 18rem; ">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><strong>Datos del inspector</strong></li>
+              <li class="list-group-item">Nombre: Ricardo</li>
+              <li class="list-group-item">Apellidos: Sánchez Iglesias</li>
+              <li class="list-group-item">Email:ricardo@gamail.com</li>
+              <li class="list-group-item">Movil:123 123 123</li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-sm-5">
+        <div class="card mt-3" >
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><strong>Datos del lugar </strong></li>
+              <li class="list-group-item">Valencia, puerto</li>
+              <li class="list-group-item"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24647.521706708805!2d-0.3344362933375401!3d39.44808328730945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604835bc0b7b1f%3A0x6c5c617f0b38e68c!2sPort%20de%20Valencia!5e0!3m2!1ses!2ses!4v1620076453413!5m2!1ses!2ses" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe></li>
+            </ul>
+        </div>
+    </div>
+
+   </div>
+   
+
+    <div class="row mt-5 ml-2">
+      <div class="col-sm-3">
+         <h4><b>Inspección general</b></h4>
+      </div>
+    </div> 
+    <div class="row mb-3 ml-2">
+      <div class="col-12">
+        <div class="fondoTexto">   
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus, velit euismod auctor tristique, magna ex varius dui, at convallis sem arcu pretium augue. Sed gravida, leo non porta volutpat, erat risus porttitor velit, et ullamcorper leo lectus in mauris. Maecenas rutrum iaculis dui et tempus. Quisque sagittis justo a nibh dignissim, quis pulvinar magna gravida. Maecenas sodales nunc sit amet hendrerit malesuada. Nam fringilla elit quis bibendum placerat. Sed ultricies mauris est, id aliquam ante efficitur quis. Praesent pharetra, justo id suscipit viverra, felis dui condimentum neque, ac ultricies mi urna sit amet urn
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5 ml-2">
+      <div class="col-sm-3">
+         <h4><b>Notas</b></h4>
+      </div>
+    </div> 
+    <div class="row mb-3 ml-2">
+      <div class="col-12">
+        <div class="fondoTexto">   
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus, velit euismod auctor tristique, magna ex varius dui, at convallis sem arcu pretium augue. Sed gravida, leo non porta volutpat, erat risus porttitor velit, et ullamcorper leo lectus in mauris. Maecenas rutrum iaculis dui et tempus. Quisque sagittis justo a nibh dignissim, quis pulvinar magna gravida. Maecenas sodales nunc sit amet hendrerit malesuada. Nam fringilla elit quis bibendum placerat. Sed ultricies mauris est, id aliquam ante efficitur quis. Praesent pharetra, justo id suscipit viverra, felis dui condimentum neque, ac ultricies mi urna sit amet urn
+        </div>
+      </div>
+    </div>
+
+   
+
+
+   <div class="row mt-5 mb-3 ml-2">
+        <div class="col-sm-3">
+          <h4><b>Fotografías</b></h4>
+        </div>
+       
+   </div>
+
+
+   <div class="row row justify-content-center mb-5">         
+    <div class="col-2 mr-5">
+      <a [routerLink]="'/photo'" class="btn btn-greenCar" role="button" data-bs-toggle="button"><span class="material-icons" style="color:red">warning</span><img src="..\..\assets\car.jpg" style="width:200px; "><br>20/01/2021 - 18:50</a>
+       </div>
+    <div class="col-2 mr-5">
+      <a [routerLink]="'/photo'" class="btn btn-greenCar" role="button" data-bs-toggle="button"><span class="material-icons" style="color:white">done_outline</span><img src="..\..\assets\car.jpg" style="width:200px; "><br>20/01/2021 - 18:50</a>
+    </div>
+    <div class="col-2 mr-5">
+      <a [routerLink]="'/photo'" class="btn btn-greenCar" role="button" data-bs-toggle="button"><span class="material-icons" style="color:white">done_outline</span><img src="..\..\assets\car.jpg" style="width:200px; "><br>20/01/2021 - 18:50</a>
+    </div>
+    <div class="col-2 mr-5">
+      <a [routerLink]="'/photo'" class="btn btn-greenCar" role="button" data-bs-toggle="button"><span class="material-icons" style="color:white">done_outline</span><img src="..\..\assets\car.jpg" style="width:200px; "><br>20/01/2021 - 18:50</a>
+    </div>               
+  </div>
+
+
+  <div class="row justify-content-end my-3">
+    <div class="col-2">
+      <a href="#" class="btn btn-green btn-sm btn float-right" tabindex="-1" role="button" aria-disabled="true">IMPRIMIR PDF</a>
+    </div>
+    <div class="col-1">
+      <a href="#" class="btn btn-green btn-sm btn float-right" tabindex="-1" role="button" aria-disabled="true">EXPORTAR</a>
+    </div>
+  </div>
+
+  <div class="row my-5">test system</div>
+
+
+
+</div>
